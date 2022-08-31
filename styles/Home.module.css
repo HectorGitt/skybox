@@ -137,6 +137,12 @@
   .info {
     align-items: center;
   }
+  .follow {
+    align-self: center;
+  }
+  .copy {
+    align-self: center;
+  }
   .title {
     font-size: 2rem;
   }
