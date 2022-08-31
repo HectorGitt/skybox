@@ -1,0 +1,53 @@
+@import 'abstracts/variables';
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+
+@import 'base/reset';
+@import 'base/typography';
+
+@import 'layout/navigation';
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/forms';
+@import 'layout/hero';
+
+@import 'components/buttons';
+@import 'components/background';
+@import 'components/contact';
+@import 'components/socialIcons';
+@import 'components/services';
+
+@import 'themes/theme';
+@import 'themes/admin';
+
+
+
+/* 
+
+
+
+
+
+position: absolute;
+width: 596px;
+height: 871px;
+left: 458px;
+top: 422px;
+
+
+
+
+
+position: absolute;
+width: 1512px;
+height: 100px;
+left: 0px;
+top: 0px;
+ */
+
+
+
+
+
+/* or 145% */
