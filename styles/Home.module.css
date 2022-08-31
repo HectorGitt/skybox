@@ -98,11 +98,20 @@
   justify-content: center;
   align-items: center;
 }
+.copy {
+  align-self: flex-end;
+}
 
 .mail, .follow {
   display: flex;
   align-items: flex-end;
   gap: 0.5rem;
+}
+.follow {
+  align-self: flex-end;
+}
+.follow .icon{
+  color: #D1B5B2;
 }
 .mail a {
   font-size: 2rem;
