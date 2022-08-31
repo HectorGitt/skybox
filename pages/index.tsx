@@ -40,14 +40,14 @@ const Home: NextPage = () => {
       </div>
       <footer className={styles.footer}>
         <div className={styles.copy}>
-            <small>&copy; 2022 defimentum. All Right Reserved</small>
+            <small>&copy; 2022 skybox. All Right Reserved</small>
           </div>
         <div className={styles.info}>
           <div className={styles.mail}>
             <span>
               <FontAwesomeIcon className={styles.icon} icon={faEnvelope}/>
             </span>
-            <a href="mailto:info@defimentum.com">info@defimentum.com</a>
+            <a href="mailto:info@defimentum.com">talk@skybox.vc</a>
           </div>
           <div className={styles.follow}>
             <span>Follow us on </span> <a className={styles.icon} href="https://twitter.com"><FontAwesomeIcon icon={faTwitter} /></a>
