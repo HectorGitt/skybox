@@ -5,6 +5,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 1rem;
   
 }
 .nav {
@@ -33,7 +34,7 @@
 }
 .hero_image > div{
   display: block;
-  width: 100%;
+  width: 75%;
   max-width: 25rem;
   position: relative;
   transform: translateY(10%);
@@ -78,12 +79,13 @@
 }
 .footer {
   display: flex;
-  padding: 2rem 0;
+  padding: 2rem 2rem;
   background: #1F0319;
   align-items: center;
   justify-content: space-around;
   width: 100%;
   padding: 5rem 0;
+  flex-wrap: wrap;
 }
 .info {
   display: flex;
@@ -125,6 +127,16 @@
   }
   .info {
     align-items: center;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .nav {
+    padding: 1rem 1rem;
+  }
+  .mail a {
+    font-size: 1.2rem;
+    word-wrap: break-word;
   }
 }
 
