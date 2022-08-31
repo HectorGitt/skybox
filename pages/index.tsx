@@ -47,7 +47,7 @@ const Home: NextPage = () => {
             <span>
               <FontAwesomeIcon className={styles.icon} icon={faEnvelope}/>
             </span>
-            <a href="mailto:info@defimentum.com">talk@skybox.vc</a>
+            <a href="mailto:talk@skybox.vc">talk@skybox.vc</a>
           </div>
           <div className={styles.follow}>
             <span>Follow us on </span> <a className={styles.icon} href="https://twitter.com"><FontAwesomeIcon icon={faTwitter} /></a>
